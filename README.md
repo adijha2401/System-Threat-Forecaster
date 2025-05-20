@@ -30,6 +30,9 @@ The following Machine Learning Models were used to predict the target variable:
 ### Best Performing Model: HistGradientBoostingClassifier
 After evaluating the listed models, HGBC provided the best Accuracy Score of 0.6280.
 
+# Output: _submission.csv_
+The file contains the binary indicators (0: NOT infected; 1: infected) after serialising each MachineID as Id, to 
+
 # Future Work
 I've identified several promising directions for future research:
 
