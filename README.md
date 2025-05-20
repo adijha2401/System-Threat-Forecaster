@@ -27,6 +27,9 @@ The following Machine Learning Models were used to predict the target variable:
 - **Logistic Regression**: A simple linear model used for binary classification.
 - **HistGradientBoostingClassifier**: via LightGBM, a gradient boosting model that performs well on large datasets.
 
+## Best Performing Model: HistGradientBoostingClassifier
+After evaluating the listed models, HGBC provided the best Accuracy Score of 0.6280.
+
 # Future Work
 I've identified several promising directions for future research:
 
