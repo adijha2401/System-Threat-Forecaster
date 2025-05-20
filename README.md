@@ -18,3 +18,19 @@ The dataset consists of the following columns:
 - **IsPassiveModeEnabled**: Whether passive mode is enabled.
 - **Other features**: Several system properties such as OS version, number of antivirus products installed, physical RAM, and more.
 - **Target**: A binary indicator (0 or 1) indicating if the machine is infected by malware.
+
+# Models Implemented
+The following Machine Learning Models were used to predict the target variable:
+
+- **Decision Tree**: The baseline model used to compare performance.
+- **Random Forest**: An ensemble model that improves upon decision trees, later used as a feature selector.
+- **Logistic Regression**: A simple linear model used for binary classification.
+- **HistGradientBoostingClassifier**: via LightGBM, a gradient boosting model that performs well on large datasets.
+
+# Future Work
+I've identified several promising directions for future research:
+
+- Incorporation of temporal features to capture infection patterns over time
+- Ensemble approach combining multiple model strengths
+- Deep learning approaches for feature extraction from raw telemetry data
+- Explainability enhancements for security operations teams
